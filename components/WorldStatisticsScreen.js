@@ -77,7 +77,7 @@ export default function WorldStatisticsScreen({navigation}) {
             <Text style={styles.textFooter}>Recovered</Text>
         </View>
     </View>
-
+ 
     <View style={styles.row}>
         <View style={styles.column}>
             <Text style={styles.textPercentage}>{(data.NewConfirmed/population*100).toFixed(3)}%</Text>

@@ -73,7 +73,7 @@ const FavList = ({fav,navigation}) =>{
       
     }, [fav])
 
-    
+     
 
     return(
         <TouchableOpacity style={styles.touchableOpacity} onPress={() => {navigation.navigate('FavouritiesDetail',{ favObj: fav}) }} >

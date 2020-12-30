@@ -13,7 +13,7 @@ const searchIcon=<Ionicons name="search-outline" size={25} color="#ea3c53"/>
 const starOutline=<Ionicons name="star-outline" size={30} color="#ea3c53"/>
 const starFilled= <Ionicons name="star" size={30} color="#ea3c53"/>
 export default function CountryStatisticsScreen({navigation}) {
-
+ 
     const [countryData,setCountryData]=useState([])
     const [favourities,setFavourities]=useState([])
     const [searchText,setSearchText]=useState('')

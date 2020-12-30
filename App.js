@@ -13,7 +13,7 @@ const Drawer = createDrawerNavigator();
 export default function App() {
   return (
     <NavigationContainer>
-      <Drawer.Navigator initialRouteName="Country Statistics">
+      <Drawer.Navigator initialRouteName="World Statistics">
         <Drawer.Screen name="World Statistics" component={WorldStatisticsScreen} />
         <Drawer.Screen name="Country Statistics" component={CountryStatisticsScreen} />
         <Drawer.Screen name="Favourities" component={Favourities} />

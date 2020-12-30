@@ -9,7 +9,7 @@ import Ionicons from 'react-native-vector-icons/Ionicons';
 const starIcon= <Ionicons name="star" size={32} color="#ea3c53"/>
 export default function FavouritiesDetails({navigation,route}){
     const favouritie = route.params.favObj
-    
+     
 
     return(
         <View style={styles.container}>
